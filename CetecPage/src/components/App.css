@@ -1,0 +1,27 @@
+@import url("https://fonts.cdnfonts.com/css/microsoft-sans-serif");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text {
+  font-family: "Microsoft Sans Serif", sans-serif;
+  font-size: 1.4rem;
+  color: #444;
+}
+
+.info {
+  font-family: "Microsoft Sans Serif", sans-serif;
+  font-size: 20px;
+  color: #444;
+  margin-left: 15px;
+}
+
+.container {
+  background-image: url("/public/backgroundImg.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
