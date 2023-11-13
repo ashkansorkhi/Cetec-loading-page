@@ -1,21 +1,20 @@
-import { AiOutlineMail } from "react-icons/Ai";
-import { PiTelegramLogoDuotone } from "react-icons/pi";
-import { Box, Text, Link } from "@chakra-ui/react";
-
+import { FaTelegramPlane } from "@react-icons/all-files/fa/FaTelegramPlane";
+import { Box, Link } from "@chakra-ui/react";
+import { AiTwotoneMail } from "@react-icons/all-files/ai/AiTwotoneMail";
 export default function Informations() {
   return (
     <Box mt={200}>
       <Box display="flex" alignItems="center" justifyContent="center">
-        <AiOutlineMail size={25} />
-        <a href="mailto:info@cetec.ir" className="info">
+        <AiTwotoneMail size={25} />
+        <Link href="mailto:info@cetec.ir" className="info">
           info@cetec.ir
-        </a>
+        </Link>
       </Box>
       <Box display="flex" alignItems="center" justifyContent="center">
-        <PiTelegramLogoDuotone size={25} />
-        <a a href="https://t.me/CETECIran" className="info" target="_blank">
+        <FaTelegramPlane size={25} />
+        <Link a href="https://t.me/CETECIran" className="info" target="_blank">
           @CETECIran
-        </a>
+        </Link>
       </Box>
     </Box>
   );
